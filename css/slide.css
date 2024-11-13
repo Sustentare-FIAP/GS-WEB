@@ -1,0 +1,81 @@
+.slider {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slider-content {
+  width: 400%;
+  height: auto;
+  display: flex;
+
+  & input {
+    display: none;
+  }
+}
+
+.img-mobile {
+  display: none;
+}
+
+.slide-box {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  transition: 1.5s;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.nav-manual,
+.nav-auto {
+  position: absolute;
+  width: 100%;
+  margin-top: 26%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-manual .manual-btn,
+.nav-auto div {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-manual .manual-btn:hover {
+  background-color: black;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1,
+#radio2:checked ~ .nav-auto .auto-btn2,
+#radio3:checked ~ .nav-auto .auto-btn3  {
+  background-color: black !important;
+}
+
+#radio1:checked ~ .primeiro {
+  margin-left: 0%;
+}
+#radio2:checked ~ .primeiro {
+  margin-left: -25%;
+}
+#radio3:checked ~ .primeiro {
+  margin-left: -50%;
+}
+
+@media screen and (max-width: 900px){
+    .img-desktop{
+        display: none;
+    }
+
+    .img-mobile{
+        display: block;
+    }
+
+}
