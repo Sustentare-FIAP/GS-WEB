@@ -43,7 +43,7 @@
 .nav-manual .manual-btn,
 .nav-auto div {
   border: 1px solid black;
-  padding: 10px;
+  padding: 7px;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.5s;
@@ -55,7 +55,7 @@
 
 #radio1:checked ~ .nav-auto .auto-btn1,
 #radio2:checked ~ .nav-auto .auto-btn2,
-#radio3:checked ~ .nav-auto .auto-btn3  {
+#radio3:checked ~ .nav-auto .auto-btn3 {
   background-color: black !important;
 }
 
@@ -69,13 +69,12 @@
   margin-left: -50%;
 }
 
-@media screen and (max-width: 900px){
-    .img-desktop{
-        display: none;
-    }
+@media screen and (max-width: 900px) {
+  .img-desktop {
+    display: none;
+  }
 
-    .img-mobile{
-        display: block;
-    }
-
+  .img-mobile {
+    display: block;
+  }
 }
