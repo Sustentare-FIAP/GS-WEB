@@ -3,14 +3,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", serif;
+  list-style: none;
+  text-decoration: none;
 }
 /* RESET CSS */
+
+:root{
+  --azul-escuro: #084f6f;
+  --azul-medio: #0462ab;
+  --azul-claro: #088fd3;
+  --branco: #ffffff;
+  --preto: #1e1e1e;
+  --verde-escuro: #7bb586;
+  --azul-piscina: #67cdf4;
+  --azul-escuro-piscina: #49beee;
+  --verde-claro:#abd8b4;
+  --azul-agua: #39819c;
+  --fonte-site: "Poppins", serif;
+}
 
 html {
   font-size: 62.5%;
 }
 
 body {
+  font-family: var(--fonte-site);
   font-size: 1.6rem;
+  background-color: var(--branco);
+  
 }
