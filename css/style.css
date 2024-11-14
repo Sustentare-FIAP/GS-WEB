@@ -26,3 +26,34 @@ nav {
     border-bottom: 1px solid var(--verde-escuro);
   }
 }
+
+.texto-home {
+  margin-top: 8rem;
+  display: flex;
+
+  & p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+}
+
+section {
+  width: 80%;
+  margin: auto;
+}
+
+.teste {
+  font-size: 3rem !important;
+
+  & span {
+    color: var(--verde-escuro);
+    font-weight: bold;
+  }
+}
+
+.foto-texto {
+  & img {
+    width: 35rem;
+  }
+}
