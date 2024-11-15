@@ -1,0 +1,22 @@
+
+.wrapper .carrossel{
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.carrossel img{
+    height: 34rem;
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 1.4rem;
+}
+
+.carrossel img:first-child{
+    margin-left: 0px;
+}
+
+i{
+    background-color: blueviolet;
+}
