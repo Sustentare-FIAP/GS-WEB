@@ -60,6 +60,12 @@ section {
   }
 }
 
+.posicao-mini-banners {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
 .ajuste-cards {
   display: flex;
   justify-content: space-between;
@@ -112,6 +118,6 @@ footer {
   & img {
     width: 100%;
     position: absolute;
-    top: 139.2%;
+    top: 153.4%;
   }
 }
