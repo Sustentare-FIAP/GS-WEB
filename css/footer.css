@@ -31,7 +31,6 @@ footer {
 .icons {
   display: flex;
   gap: 2rem;
-  margin-left: 2rem;
   margin-top: 2rem;
   justify-content: center;
 
@@ -63,10 +62,10 @@ footer {
     border-radius: 2px;
     background-color: transparent;
     margin-right: 3rem;
-    transition: 0.5s
+    transition: 0.5s;
   }
 
-  & button:hover{
+  & button:hover {
     border: 1px dashed var(--verde-claro);
     color: var(--verde-claro);
   }
@@ -86,5 +85,18 @@ footer {
   justify-content: space-between;
   margin-top: 2rem;
   gap: 2rem;
+}
 
+@media screen and (max-width: 1400px) {
+  .texto-footer {
+    display: none;
+  }
+
+  .newsletter {
+    margin: auto;
+
+    & button {
+      margin-right: 0;
+    }
+  }
 }

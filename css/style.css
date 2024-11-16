@@ -62,13 +62,19 @@ section {
 
 .posicao-mini-banners {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 3rem;
+
+  & img{
+    width: 100%;
+  }
 }
 
 .ajuste-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .bold {
@@ -80,6 +86,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-left: 1rem;
 }
 
 .tamanho-numero {
@@ -95,6 +102,7 @@ section {
   align-items: center;
   margin-left: 2rem;
   margin-right: 2rem;
+  min-width: 330px;
 
   & img {
     transition: 0.5s;
@@ -112,4 +120,40 @@ h2 {
   font-weight: 400;
 }
 
+@media screen and (max-width: 1700px) {
+  .posicao-mini-banners {
+    gap: 4rem;
+    justify-content: center;
+  }
+}
 
+@media screen and (max-width: 1600px) {
+  .texto-home {
+    & p {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .texto-home {
+    margin-bottom: 4rem;
+  }
+
+  .foto-texto {
+    & img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .ajuste-cards {
+    justify-content: center;
+  }
+
+  .texto-home {
+    text-align: center;
+    width: 90%;
+  }
+}

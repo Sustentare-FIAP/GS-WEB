@@ -77,4 +77,9 @@
   .img-mobile {
     display: block;
   }
+
+  .nav-manual,
+  .nav-auto {
+    margin-top: 55%;
+  }
 }
