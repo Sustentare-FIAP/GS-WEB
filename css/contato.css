@@ -11,7 +11,7 @@ body {
 
 .fundo-form {
   margin: auto;
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-top: 3rem;
   margin-bottom: 10rem;
@@ -47,7 +47,7 @@ body {
     color: var(--branco);
     background-color: var(--verde-escuro);
     border: none;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 1.8rem;
   }
@@ -65,7 +65,6 @@ body {
   width: 50%;
 
   & img {
-    display: flex;
     width: 100%;
   }
 }
@@ -88,3 +87,40 @@ textarea:focus, input:focus{
     outline: 0;
 } 
 
+
+@media screen and (max-width: 1300px){
+    .ajuste-gif {
+
+        & img {
+          margin-top: 5rem;
+        }
+      }
+}
+
+@media screen and (max-width: 1200px){
+    .ajuste-gif {
+
+        & img {
+          display: none;
+        }
+      }
+
+    .fundo-form{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tamanho-form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .fundo-form{
+        box-shadow: none;
+    }
+
+    .tamanho-form{
+        width: 100%;
+    }
+}
