@@ -97,7 +97,7 @@ h2 {
   width: 100%;
   height: auto;
   border: 30px solid var(--verde-escuro);
-  border-image: url("../imgs/greenery-frame-watercolor-green.jpg") 150 round;
+  border-image: url("../imgs/bordas-folhas.jpg") 150 round;
   border-style: inset;
   display: flex;
   flex-direction: column;
@@ -144,10 +144,6 @@ h2 {
 }
 
 @media screen and (max-width: 500px) {
-  .frase-footer {
-    font-size: 1.8rem !important;
-  }
-
   .text-final {
     font-size: 1.8rem;
     padding: 1rem;
@@ -165,7 +161,7 @@ h2 {
     font-size: 2.5rem !important;
   }
 
-  h2{
+  h2 {
     font-size: 2.5rem;
   }
 }

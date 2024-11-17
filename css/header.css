@@ -17,6 +17,7 @@ header {
       display: flex;
       flex-wrap: wrap;
       gap: 6rem;
+      list-style: none;
     }
   
     & a {

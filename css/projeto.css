@@ -1,0 +1,62 @@
+body {
+  background-image: url("../imgs/papel-amassado.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & h2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+   
+
+    & span {
+      color: var(--verde-escuro);
+    }
+  }
+
+  & p {
+    width: 80%;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.8rem;
+  }
+
+  & li {
+    width: 80%;
+    margin: auto;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 700px){
+    section{
+        width: 90%;
+        margin: auto;
+        
+        & h2{
+            font-size: 2.5rem;
+        }
+
+        & p{
+            text-align: justify;
+        }
+
+        & li{
+            text-align: justify;
+        }
+    }
+}

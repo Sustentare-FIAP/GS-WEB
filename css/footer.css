@@ -100,3 +100,9 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .frase-footer {
+    font-size: 1.8rem !important;
+  }
+}
