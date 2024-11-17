@@ -37,7 +37,6 @@ body {
     padding-left: 1rem;
     font-size: 1.6rem;
     font-family: var(--fonte-site);
-
   }
 
   & button {
@@ -65,62 +64,70 @@ body {
   width: 50%;
 
   & img {
-    width: 100%;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 3rem;
   }
 }
 
-textarea{
-    width: 100% !important;
-    height: 15rem !important;
-    background-color: transparent;
-    border: none;
-    box-shadow: var(--cinza) 0px 5px 20px 5px;
-    border-radius: 1rem;
-    padding: 1em;
-    font-size: 1.6rem;
-    font-family: var(--fonte-site);
+textarea {
+  width: 100% !important;
+  height: 15rem !important;
+  background-color: transparent;
+  border: none;
+  box-shadow: var(--cinza) 0px 5px 20px 5px;
+  border-radius: 1rem;
+  padding: 1em;
+  font-size: 1.6rem;
+  font-family: var(--fonte-site);
 }
 
-textarea:focus, input:focus{
-    box-shadow: transparent;
-    border: 0 none;
-    outline: 0;
-} 
-
-
-@media screen and (max-width: 1300px){
-    .ajuste-gif {
-
-        & img {
-          margin-top: 5rem;
-        }
-      }
+textarea:focus,
+input:focus {
+  box-shadow: transparent;
+  border: 0 none;
+  outline: 0;
 }
 
-@media screen and (max-width: 1200px){
-    .ajuste-gif {
-
-        & img {
-          display: none;
-        }
-      }
-
-    .fundo-form{
-        justify-content: center;
-        flex-wrap: wrap;
+@media screen and (max-width: 1600px) {
+  .ajuste-gif {
+    & img {
+      margin-top: 10rem;
     }
-
-    .tamanho-form{
-        width: 80%;
-    }
+  }
 }
 
-@media screen and (max-width: 500px){
-    .fundo-form{
-        box-shadow: none;
+@media screen and (max-width: 1400px) {
+  .ajuste-gif {
+    & img {
+      margin-top: 10rem;
     }
+  }
+}
 
-    .tamanho-form{
-        width: 100%;
+@media screen and (max-width: 1200px) {
+  .ajuste-gif {
+    & img {
+      display: none;
     }
+  }
+
+  .fundo-form {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .tamanho-form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fundo-form {
+    box-shadow: none;
+  }
+
+  .tamanho-form {
+    width: 100%;
+  }
 }
