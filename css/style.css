@@ -33,7 +33,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 3rem;
 
   & img {
     width: 100%;
@@ -87,12 +86,13 @@ section {
 h2 {
   font-size: 3rem;
   margin-bottom: 3rem;
+  margin-top: 10rem;
   font-weight: 400;
 }
 
 .text-final {
   padding: 4rem;
-  margin-top: 3rem;
+  margin-top: 10rem;
   margin-bottom: 3rem;
   width: 100%;
   height: auto;
