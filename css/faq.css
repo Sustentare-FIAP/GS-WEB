@@ -19,6 +19,7 @@ body {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   font-weight: 600;
 }
 
@@ -44,6 +45,10 @@ body {
   padding: 1rem;
   border-top: none;
   border-radius: 1rem;
+
+  & p {
+    margin-bottom: 1rem;
+  }
 }
 
 .body-postion-faq ul {
@@ -60,5 +65,16 @@ hr {
 @media screen and (max-width: 500px) {
   .title-faq {
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .faq {
+    width: 100%;
+    padding: 0;
+  }
+
+  section{
+    width: 80%;
   }
 }
