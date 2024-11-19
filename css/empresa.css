@@ -1,0 +1,42 @@
+.conteudo-empresas {
+  & h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  & p,
+  li {
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    width: 80%;
+    margin: auto;
+  }
+
+  & span {
+    color: var(--verde-escuro);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section {
+    width: 90%;
+    margin: auto;
+  }
+  .conteudo-empresas {
+    & h2 {
+      font-size: 2.5rem;
+    }
+
+    & p {
+      text-align: justify;
+    }
+
+    & li {
+      text-align: justify;
+    }
+  }
+}
