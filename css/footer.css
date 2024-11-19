@@ -63,6 +63,7 @@ footer {
     background-color: transparent;
     margin-right: 3rem;
     transition: 0.5s;
+    margin-bottom: 4rem;
   }
 
   & button:hover {
@@ -104,11 +105,5 @@ footer {
 @media screen and (max-width: 500px) {
   .frase-footer {
     font-size: 1.8rem !important;
-  }
-
-  .newsletter {
-    & button {
-      margin-bottom: 4rem;
-    }
   }
 }

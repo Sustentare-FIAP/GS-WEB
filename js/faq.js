@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       question: "O que é o Selo de Empresa Sustentável?",
-      answer: "O Selo de Empresa Sustentável é um símbolo exclusivo concedido às empresas parceiras do programa. Ele certifica que a empresa está engajada em práticas e iniciativas voltadas para a sustentabilidade. O selo pode ser exibido no footer do site da empresa, reforçando seu compromisso com o meio ambiente e destacando-a como líder no mercado sustentável."
+      answer:
+        "O Selo de Empresa Sustentável é um símbolo exclusivo concedido às empresas parceiras do programa. Ele certifica que a empresa está engajada em práticas e iniciativas voltadas para a sustentabilidade. O selo pode ser exibido no footer do site da empresa, reforçando seu compromisso com o meio ambiente e destacando-a como líder no mercado sustentável.",
     },
   ];
 
@@ -46,12 +47,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const question = document.createElement("h2");
     question.className = "faq-page";
     question.textContent = faq.question;
-    question.addEventListener("click", () => toggleAccordion(index));
 
     const answer = document.createElement("div");
     answer.className = "faq-body";
     answer.innerHTML = faq.answer;
-    answer.style.display = "none";
+
+    // Deixar a primeira pergunta aberta
+    if (index === 0) {
+      answer.style.display = "block"; // Exibir a resposta
+      question.classList.add("active"); // Marcar o título como ativo
+    } else {
+      answer.style.display = "none"; // Manter os outros fechados
+    }
+
+    question.addEventListener("click", () => toggleAccordion(index));
 
     faqItem.appendChild(question);
     faqItem.appendChild(answer);
