@@ -111,4 +111,8 @@ footer {
       height: 5rem;
     }
   }
+
+  footer{
+    height: 25vh !important;
+  }
 }

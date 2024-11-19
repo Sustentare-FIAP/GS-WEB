@@ -171,4 +171,18 @@ h2 {
     width: 90%;
     margin-bottom: 4rem;
   }
+
+  .text-final {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    margin-top: 3rem;
+  }
+
+  .texto-home {
+    & p {
+      margin-top: 0;
+    }
+  }
 }
