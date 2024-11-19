@@ -105,4 +105,10 @@ footer {
   .frase-footer {
     font-size: 1.8rem !important;
   }
+
+  .newsletter {
+    & button {
+      height: 5rem;
+    }
+  }
 }
