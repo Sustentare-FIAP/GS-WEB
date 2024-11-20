@@ -5,12 +5,11 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-  
-    & img {
-      width: 20rem;
-      cursor: pointer;
-    }
   }
+
+  .tamanho-logo{
+    width: 20rem;
+}
   
   nav {
     & ul {
