@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 3562.13 1264.73">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #7bb586;
+      stroke-width: 0px;
+      }
+
+      .cls-2 {
+      font-family: "Barlow", serif;
+      font-size: 940px;
+      font-weight: 700;
+      }
+
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <text class="cls-2" transform="translate(0 805.87) scale(.74 1)">
+        <tspan x="0" y="0">Sustentare</tspan>
+      </text>
+      <path class="cls-1"
+        d="m3240.83,276.95L3451.66,15.37c22.87-28.37,68.61-15.19,72.88,21l37.31,316.9c1.01,8.55-.69,17.19-4.86,24.72l-248.14,448.57c-20.56,37.17-77.12,22.57-77.12-19.91v-503.88c0-9.39,3.21-18.5,9.11-25.81Z" />
+    </g>
+  </g>
+</svg>
