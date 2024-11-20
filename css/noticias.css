@@ -200,3 +200,33 @@ iframe {
   padding: 0;
 }
 /* cards videos*/
+@media screen and (max-width: 1600px){
+
+  .ajustes-cards-videos{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-videos{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .card-videos{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .ajustes-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px){
+  
+}
