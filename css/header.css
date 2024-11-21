@@ -31,16 +31,18 @@
 
 nav {
   height: 15vh;
+
+  & li {
+    display: flex;
+    font-size: 2rem;
+  }
 }
 
 .container-fluid {
   width: 95%;
 }
 
-li {
-  display: flex;
-  font-size: 2rem;
-}
+
 
 .nav-link {
   padding-left: 3rem !important;
