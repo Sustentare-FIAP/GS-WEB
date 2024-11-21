@@ -4,7 +4,7 @@ section {
 }
 
 body {
-  background-image: url("../imgs/papel-amassado.svg");
+  background-image: url("../imgs/papel-amassado.svg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }

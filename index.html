@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustentare</title>
     <link rel="shortcut icon" href="imgs/fav-icon.svg" type="image/x-icon">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CHAMADA CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
@@ -38,7 +39,77 @@
 </head>
 
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand tamanho-logo" href="index.html"><svg id="Camada_2" data-name="Camada 2"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3562.13 1264.73">
+                    <defs>
+                        <style>
+                            @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+                            .cls-1 {
+                                fill: #7bb586;
+                                stroke-width: 0px;
+                            }
+
+                            .cls-2 {
+                                font-family: "Barlow", serif;
+                                font-size: 860px;
+                                font-weight: 500;
+                            }
+                        </style>
+                    </defs>
+                    <g id="Camada_1-2" data-name="Camada 1">
+                        <g>
+                            <text font-family="Poppins" class="cls-2" transform="translate(0 805.87) scale(.74 1)">
+                                <tspan x="0" y="0">Sustentare</tspan>
+                            </text>
+                            <path class="cls-1"
+                                d="m3240.83,276.95L3451.66,15.37c22.87-28.37,68.61-15.19,72.88,21l37.31,316.9c1.01,8.55-.69,17.19-4.86,24.72l-248.14,448.57c-20.56,37.17-77.12,22.57-77.12-19.91v-503.88c0-9.39,3.21-18.5,9.11-25.81Z" />
+                        </g>
+                    </g>
+                </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="projeto.html">
+                            <p>Projeto</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nos.html">
+                            <p>Sobre-nós</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresa.html">
+                            <p>Empresa</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">
+                            <p>Notícias</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="duvidas.html">
+                            <p>Dúvidas</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">
+                            <p>Contato</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <header>
         <a href="index.html" class="tamanho-logo">
 
             <svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3562.13 1264.73">
@@ -80,7 +151,7 @@
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <section class="slider">
         <div class="slider-content">
             <input type="radio" name="btn-radio" id="radio1">
@@ -88,7 +159,8 @@
             <input type="radio" name="btn-radio" id="radio3">
 
             <div class="slide-box primeiro">
-               <a href="projeto.html"><img class="img-desktop" src="imgs/slider1-.webp" alt="Duas pessoas em um campo com energia eólica"></a>
+                <a href="projeto.html"><img class="img-desktop" src="imgs/slider1-.webp"
+                        alt="Duas pessoas em um campo com energia eólica"></a>
                 <img class="img-mobile" src="imgs/slider1-mobile.webp"
                     alt="Duas pessoas em um campo com energia eólica-mobile">
             </div>
@@ -227,6 +299,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
     <script src="js/slide.js"></script>
 </body>
 
