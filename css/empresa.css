@@ -20,6 +20,9 @@
     color: var(--verde-escuro);
   }
 }
+ol, ul{
+  padding: 0;
+}
 
 @media screen and (max-width: 1000px) {
   section {
