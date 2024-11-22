@@ -200,6 +200,15 @@ iframe {
   padding: 0;
 }
 /* cards videos*/
+
+.ajuste-grafico {
+  width: auto;
+  margin: auto;
+  background-color: var(--branco);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 3rem !important;
+}
 @media screen and (max-width: 1600px) {
   .ajustes-cards-videos {
     flex-direction: column;
