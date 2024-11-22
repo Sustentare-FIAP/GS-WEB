@@ -235,6 +235,12 @@ iframe {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .apagar {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 500px) {
   section {
     h2 {
